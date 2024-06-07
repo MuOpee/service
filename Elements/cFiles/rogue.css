@@ -16,11 +16,7 @@ h1, h2, h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     color: cyan;
-h4 {
-    font-family: 'Times New Roman', Times, serif;
-    color: red;
-}
-h5, h6 {
+h4, h5, h6 {
     font-family: 'Lato', sans-serif;
     color: white;
 }
@@ -95,7 +91,7 @@ label, input, textarea {
 button {
     background-color: blueviolet;
     color: white;
-    border: none;
+    border: 1px solid white;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 100%;
