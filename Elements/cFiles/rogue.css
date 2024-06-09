@@ -1,15 +1,8 @@
 body {
-    background-image: url('Elements/images/bgCon.png');
+    background-color: black;
     background-repeat: repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
-}
-
-/* Set the image to fit for all browsers */
-img {
-    max-width: 100%;
-    height: auto;
-    align: center;
 }
 
 h1, h2, h3 {
