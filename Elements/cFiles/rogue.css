@@ -53,18 +53,17 @@ h4, h5, h6 {
         }
         .image {
             padding: 5px;
-            border-radious: 50%;
-            border: none;
+            border: 1px solid cyan;
             align-items: center;
         }
         .magi {
             padding: 5px;
-            border: none;
+            border: 1px solid cyan;
             align-items: left;
         }
         .richa {
             padding: 5px;
-            border: none;
+            border: 1px solid cyan;
             align-items: right;
         }
 
