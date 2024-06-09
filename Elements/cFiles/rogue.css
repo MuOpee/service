@@ -47,6 +47,7 @@ h4, h5, h6 {
         .image {
             padding: 5px;
             border: 1px solid cyan;
+            border-radious: 25%;
             align-items: center;
         }
         .magi {
