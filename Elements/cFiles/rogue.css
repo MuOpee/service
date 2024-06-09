@@ -39,27 +39,23 @@ h4, h5, h6 {
             background-color: red;
         }
     
-.image-container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 5px;
-        }
-        .image {
-            padding: 5px;
-            border: 1px solid cyan;
-            border-radious: 25%;
-            align-items: center;
-        }
-        .magi {
-            padding: 5px;
-            border: 1px solid cyan;
-            align-items: left;
-        }
-        .richa {
-            padding: 5px;
-            border: 1px solid cyan;
-            align-items: right;
-        }
+.gd-con {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.gd-txt {
+  border: 1px solid violate;
+  padding: 10px;
+}
+
+.gd-item img {
+  width: 100%;
+  height: auto;
+}
+
 
 .container {
     background-color: Purple;
