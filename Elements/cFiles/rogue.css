@@ -40,7 +40,7 @@ h4, h5, h6 {
         }
     
 .gd-con {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr, 1fr;
   gap: 10px;
   padding: 20px;
@@ -52,13 +52,6 @@ h4, h5, h6 {
   border: 1px solid violate;
   padding: 10px;
 }
-
-.gd-image {
-  width: 50%;
-  height: auto;
-  border: 1px solid cyan
-}
-
 
 .container {
     background-color: Purple;
