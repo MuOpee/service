@@ -39,20 +39,6 @@ h4, h5, h6 {
             background-color: red;
         }
     
-.gd-con {
-  display: flex;
-  grid-template-columns: 1fr, 1fr;
-  gap: 10px;
-  padding: 20px;
-  align-items: center;
-}
-
-.gd-txt {
-  width: 50%;  
-  border: 1px solid violate;
-  padding: 10px;
-}
-
 .container {
     background-color: Purple;
     max-width: 600px;
@@ -84,4 +70,26 @@ button {
 
 button:hover {
     background-color: violate;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+ }
+.image {
+    padding: 5px;
+    border-radious: 25%;
+    border: 1px solid cyan;
+    align-items: center;
+}
+.magi {
+    padding: 5px;
+    border: none;
+    align-items: left;
+        }
+.richa {
+    padding: 5px;
+    border: none;
+    align-items: right;
 }
