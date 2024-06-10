@@ -44,16 +44,19 @@ h4, h5, h6 {
   grid-template-columns: repeat( 1fr, 1fr));
   gap: 10px;
   padding: 20px;
+  align-items: center;
 }
 
 .gd-txt {
+  width: 50%;  
   border: 1px solid violate;
   padding: 10px;
 }
 
-.gd-txt img {
-  width: 100%;
+.gd-image {
+  width: 50%;
   height: auto;
+  border: 1px solid cyan
 }
 
 
