@@ -85,7 +85,7 @@ button:hover {
 }
 .magi {
     padding: 5px;
-    border: none;
+    border: 1.5px solid blueviolate;
     align-items: left;
         }
 .richa {
