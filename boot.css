@@ -143,3 +143,42 @@ li{
 a{
   text-decoration:none;
 }
+
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "workbench.editor.enablePreview": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "vscode-edge-devtools.webhint": false
+}
+.container {
+    background-color: Purple;
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
