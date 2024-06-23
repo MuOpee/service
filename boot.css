@@ -152,13 +152,13 @@ a{
 }
 .fm-container {
     background-color: Purple;
-    max-width: 600px;
-    width: 80%;
+    max-width: 1080px;
+    width: 95%;
     height: auto;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid cyan;
+    border-radius: 25px;
     align-content: center;
     align-items: center;
 }
