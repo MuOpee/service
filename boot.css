@@ -150,7 +150,7 @@ a{
     "security.workspace.trust.untrustedFiles": "open",
     "vscode-edge-devtools.webhint": false
 }
-.container {
+.fm-container {
     background-color: Purple;
     max-width: 600px;
     width: 80%;
