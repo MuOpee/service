@@ -99,8 +99,59 @@
 </h3></p>
                         </div>
                     </div>
-                    <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Contact Us</a>
-                </div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+  Contact Us
+</button>
+
+<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="staticBackdropLabel">Your Direct Messege</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+                  <div align="center" class="container">
+            <h3>SHARE YOUR QUERRIES</h3>
+<form id="form">
+    <label for="name">Full Name</label>
+    <input type="text" name="name" id="name">
+    <label for="email">Email Id</label>
+    <input type="text" name="email" id="email">
+    <label for="phone">Phone No</label>
+    <input type="text" name="phone" id="phone">
+    <label for="message">Your Querry</label>
+    <input type="text" name="message" id="message" rows="4">
+
+  <button type="submit" id="button" value="Send Email" >Send</button>
+</form></div>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('SxD0It3OD8nFm_Ype')
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btn.value = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_67v3aqe';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Your message is delivered. Now seat tight and wait for our reply!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+</script>
+    </div>
+  </div>
+</div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="Elements/images/itSol.jpg" style="object-fit: cover;">
