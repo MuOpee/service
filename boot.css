@@ -151,13 +151,13 @@ a{
     "vscode-edge-devtools.webhint": false
 }
 .fm-container {
-    background-color: Purple;
+    background-color: cyan;
     max-width: 1080px;
     width: 95%;
     height: auto;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid cyan;
+    border: 1px solid yellow;
     border-radius: 25px;
     align-content: center;
     align-items: center;
