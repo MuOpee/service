@@ -6,6 +6,9 @@
 .g-container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
   width: 100%;
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   padding-right: calc(var(--bs-gutter-x) * 0.5);
